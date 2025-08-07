@@ -1,0 +1,37 @@
+# hugo.toml - Himphen's Blog Configuration
+
+# -- Base Configuration --
+baseURL = "https://blog.himphen.com/"
+languageCode = "zh-hk"
+title = "Himphen's Blog"
+theme = "congo"
+
+# -- Content Directory Configuration --
+contentDir = "content"
+enableRobotsTXT = true
+summaryLength = 0
+
+# -- Pagination Configuration --
+[pagination]
+  pagerSize = 10
+
+# -- Outputs Configuration --
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  section = ["HTML", "RSS"]
+
+# -- Taxonomies --
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+# -- Security Headers --
+[security]
+  [security.exec]
+    allow = ['^dart-sass-embedded$', '^go$', '^npx$', '^postcss$', '^babel$']
+  [security.funcs]
+    getenv = ['^HUGO_'] 
+
+[services]
+  [services.googleAnalytics]
+    id = "G-K2NPW480M8"

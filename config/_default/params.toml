@@ -1,0 +1,57 @@
+# -- Appearance --
+defaultAppearance = "light"
+autoSwitchAppearance = false
+colorScheme = "ocean"
+
+# -- Search --
+enableSearch = true
+
+# -- Footer --
+[footer]
+  showCopyright = true
+  showThemeAttribution = false
+  showAppearanceSwitcher = false
+  showScrollToTop = true
+
+# -- Homepage --
+[homepage]
+  layout = "page"
+  showRecent = true
+  recentLimit = 5
+
+# -- Article Settings --
+[article]
+  showDate = true
+  showDateUpdated = false
+  showAuthor = false
+  showBreadcrumbs = false
+  showDraftLabel = true
+  showEdit = false
+  showHeadingAnchors = false
+  showPagination = true
+  invertPagination = false
+  showReadingTime = false
+  showTableOfContents = true
+  showTaxonomies = true
+  showWordCount = false
+  showComments = false
+
+# -- List Settings --
+[list]
+  showBreadcrumbs = false
+  showTableOfContents = false
+  showTaxonomies = false
+  showSummary = false
+  groupByYear = true
+  paginationWidth = 1
+
+# -- Taxonomy Settings --
+[taxonomy]
+  showTermCount = true
+
+# -- Sitemap Settings --
+[sitemap]
+  excludedKinds = ["taxonomy", "term"]
+
+# -- Custom CSS --
+customCSS = ["css/custom.css"] 

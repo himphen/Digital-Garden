@@ -1,0 +1,11 @@
+[[main]]
+  identifier = "posts"
+  name = "文章"
+  pageRef = "/posts"
+  weight = 10
+
+[[main]]
+  identifier = "about"
+  name = "關於"
+  url = "https://himphen.com"
+  weight = 20 

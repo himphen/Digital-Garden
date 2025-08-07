@@ -1,0 +1,49 @@
+name: Deploy Blog
+
+on:
+  # Triggers the workflow on push events but only for the main branch
+  push:
+    branches:
+      - main
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    
+    # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    
+    steps:
+      # Step 1: Check out the repository, including submodules (the theme)
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: true
+          fetch-depth: 0
+
+      # Step 2: Set up Hugo with the 'extended' version
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: 'latest'
+          extended: true
+
+      # Step 3: Build the website, minifying the output
+      - name: Build
+        run: hugo --minify
+
+      # Step 4: Upload artifact
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./public
+
+      # Step 5: Deploy to GitHub Pages
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4 
