@@ -1,9 +1,9 @@
-# hugo.toml - Himphen's Blog Configuration
+# hugo.toml - Himphen's Digital Garden Configuration
 
 # -- Base Configuration --
-baseURL = "https://blog.himphen.com/"
+baseURL = "https://garden.himphen.com/"
 languageCode = "zh-hk"
-title = "Himphen's Blog"
+title = "Himphen's Digital Garden"
 theme = "congo"
 
 # -- Content Directory Configuration --
