@@ -3,25 +3,32 @@
   name = "文章"
   pageRef = "/posts"
   weight = 10
-[main.params]
-    icon = "list"
-    showName = true
+  [main.params]
+      icon = "list"
+      showName = true
 
 [[main]]
   identifier = "about"
-  name = "關於"
+  name = "GitHub"
   url = "https://himphen.com"
   weight = 20 
-[main.params]
-    icon = "github"
-    showName = false
-    target = "_blank"
+  [main.params]
+      icon = "github"
+      target = "_blank"
 
 [[main]]
+  identifier = "threads"
   name = "Threads"
   url = "https://www.threads.com/@himphen"
   weight = 30
   [main.params]
     icon = "threads"
-    showName = false
     target = "_blank"
+
+[[main]]
+  identifier = "search"
+  name = "搜尋"
+  weight = 40
+  [main.params]
+    action = "search"
+    icon = "search"

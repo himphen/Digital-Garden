@@ -6,6 +6,10 @@ colorScheme = "ocean"
 # -- Search --
 enableSearch = true
 
+# -- Header --
+[header]
+  layout = "hamburger"
+
 # -- Footer --
 [footer]
   showCopyright = true
@@ -35,6 +39,7 @@ enableSearch = true
   showTaxonomies = true
   showWordCount = false
   showComments = false
+  sharingLinks = ["facebook", "threads", "telegram"]
 
 # -- List Settings --
 [list]
