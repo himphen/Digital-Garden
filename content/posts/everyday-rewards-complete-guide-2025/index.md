@@ -112,16 +112,14 @@ EG Ampol 加油站是我經常使用的積分賺取點。所有 EG Ampol 站點�
 
 ## 實用貼士分享
 
-經過幾年的使用，我積累了一些實用的小貼士，希望能幫助你更有效地使用 Everyday Rewards。
-
-### 購物習慣優化
-
 {{< figure
     class="img-sm"
     src="screenshot-2.png"
     alt="Google Pay 直接支援 NFC 拍片，可以不用掃描會員卡的 Barcode"
     caption="Google Pay 直接支援 NFC 拍片，可以不用掃描會員卡的 Barcode"
     >}}
+
+經過幾年的使用，我積累了一些實用的小貼士，希望能幫助你更有效地使用 Everyday Rewards。
 
 我建議養成每次購物都使用會員卡的習慣，即使是很小的購買也不要忽略。積分的累積是一個長期過程，每一次的小額積分都有價值。我曾經因為忘記刷會員卡而錯失了幾百個積分，雖然數量不大，但積少成多。
 
