@@ -2,7 +2,7 @@
 title: "2025 澳洲網購慳錢必讀：ShopBack、Cashrewards、TopCashback 使用心得分享"
 date: 2025-04-02
 description: "分享在澳洲使用 ShopBack、Cashrewards、TopCashback 三大現金回贈平台的真實經驗。教你如何輕鬆賺取現金回贈，一年慳好幾百！"
-tags: ["ShopBack", "Cashrewards", "TopCashback", "現金回贈", "網購", "省錢"]
+tags: ["省錢攻略", "ShopBack", "Cashrewards", "TopCashback", "現金回贈", "網購"]
 categories: ["澳洲生活"]
 ---
 
@@ -57,19 +57,19 @@ TopCashback 雖然在澳洲的商家數量較少，但它有時提供最高回�
 
 如果你也想開始使用這些平台，我的建議是：
 
-先從 ShopBack 開始，首次購物滿 $20 就能獲得 $10 回贈。
+先從 ShopBack 開始，購物滿 AUD 20 並累積 AUD 10 購物回贈，就能獲得 AUD 10 迎新回贈。
 
 {{< alert "coffee" >}}
 ShopBack 連結註冊：[https://app.shopback.com/f1by06BijVb](https://app.shopback.com/f1by06BijVb)
 {{< /alert >}}
 
-然後可以試試 Cashrewards，提供 14 天內首購滿 $20 送 $10 的優惠。
+然後可以試試 Cashrewards，提供 14 天內購物滿 AUD 20，就能獲得 AUD 10 迎新回贈。
 
 {{< alert "coffee" >}}
 Cashrewards 連結註冊：[https://refer.cashrewards.com.au/x/mwq0lX](https://refer.cashrewards.com.au/x/mwq0lX)
 {{< /alert >}}
 
-最後是 TopCashback，新用戶獎賞 $10！
+最後是 TopCashback，累積 AUD 10 購物回贈，就能獲得 AUD 10 迎新回贈。
 
 {{< alert "coffee" >}}
 TopCashback 連結註冊：[https://www.topcashback.com.au/ref/member5978417345](https://www.topcashback.com.au/ref/member5978417345)
