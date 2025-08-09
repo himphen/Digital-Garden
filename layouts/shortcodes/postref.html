@@ -1,0 +1,32 @@
+{{- $postPath := .Get 0 -}}
+{{- $site := .Page.Site -}}
+{{- $targetPost := $site.GetPage (printf "/posts/%s" $postPath) -}}
+
+{{- if $targetPost -}}
+<div class="postref-container">
+  <a href="{{ $targetPost.RelPermalink }}" class="postref-link not-prose" target="_blank">
+    <div class="postref-card">
+      <div class="postref-readmore">
+        <strong>⭐ 閱讀更多：</strong>
+      </div>
+
+      <div class="postref-card-inner">
+        {{- $image := $targetPost.Resources.Get "feature.png" -}}
+        {{- if $image -}}
+        <div class="postref-image">
+          <img 
+            src="{{ $targetPost.RelPermalink }}{{ $image }}" 
+            alt="{{ $targetPost.Title }}"
+            loading="lazy"
+          />
+        </div>
+        {{- end -}}
+        
+        <div class="postref-content">
+          <h3 class="postref-title">{{ $targetPost.Title }}</h3>
+        </div>
+      </div>
+    </div>
+  </a>
+</div>
+{{- end -}}
