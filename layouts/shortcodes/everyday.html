@@ -1,0 +1,33 @@
+{{- $postPath := "everyday-rewards-complete-guide-2025" -}}
+{{- $site := .Page.Site -}}
+{{- $targetPost := $site.GetPage (printf "/posts/%s" $postPath) -}}
+
+{{- if $targetPost -}}
+<div class="postref-container">
+  <a href="{{ $targetPost.RelPermalink }}" class="postref-link not-prose" target="_blank">
+    <div class="postref-card">
+      <div class="postref-readmore">
+        <strong>⭐ 知道更多：</strong>
+      </div>
+
+      <div class="postref-card-inner">
+        {{- $image := $targetPost.Resources.Get "feature.png" -}}
+        {{- if $image -}}
+        <div class="postref-image">
+          <img 
+            src="{{ $targetPost.RelPermalink }}{{ $image }}" 
+            alt="{{ $targetPost.Title }}"
+            loading="lazy"
+          />
+        </div>
+        {{- end -}}
+        
+        <div class="postref-content">
+          <h3 class="postref-title">{{ $targetPost.Title }}</h3>
+          <div class="postref-description">介紹 Everyday Rewards 的完整指南，包括如何註冊、如何賺取積分、如何使用積分等。使用內文提及的推薦連結註冊，便可以獲得額外迎新回贈！</div>
+        </div>
+      </div>
+    </div>
+  </a>
+</div>
+{{- end -}}
