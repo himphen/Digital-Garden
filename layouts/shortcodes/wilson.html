@@ -1,4 +1,4 @@
-{{- $postPath := "everyday-rewards-complete-guide-2025" -}}
+{{- $postPath := "wilson-parking" -}}
 {{- $site := .Page.Site -}}
 {{- $targetPost := $site.GetPage (printf "/posts/%s" $postPath) -}}
 
@@ -7,11 +7,11 @@
   <a href="{{ $targetPost.RelPermalink }}" class="postref-link not-prose" target="_blank">
     <div class="postref-card">
       <div class="postref-readmore">
-        <strong>⭐ 知道更多：</strong>
+        <strong>⭐ Wilson Parking 優惠：</strong>
       </div>
 
       <div class="postref-card-inner">
-        {{- $image := $targetPost.Resources.Get "feature.png" -}}
+        {{- $image := or ($targetPost.Resources.Get "feature.png") (or ($targetPost.Resources.Get "feature.jpg") ($targetPost.Resources.Get "wilson-1.png")) -}}
         {{- if $image -}}
         <div class="postref-image">
           <img 
@@ -24,10 +24,12 @@
         
         <div class="postref-content">
           <h3 class="postref-title">{{ $targetPost.Title }}</h3>
-          <div class="postref-description">介紹 Everyday Rewards 的完整指南，包括如何註冊、如何使用積分、如何賺買 Gift Card 等。使用內文提及的推薦連結註冊，便可以獲得額外迎新回贈！</div>
+          <div class="postref-description">用推薦碼註冊可享首次 50% off 停車費，另外有 7-Eleven 油價每公升減 6c 折扣。</div>
         </div>
       </div>
     </div>
   </a>
 </div>
 {{- end -}}
+
+

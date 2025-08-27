@@ -21,7 +21,7 @@ enableSearch = true
 [homepage]
   layout = "page"
   showRecent = true
-  recentLimit = 5
+  recentLimit = 100
 
 # -- Article Settings --
 [article]

@@ -83,8 +83,7 @@ a {
   
   /* More aggressive link breaking on mobile */
   a {
-    word-break: break-all;
-    line-break: anywhere;
+    word-break: break-word;
   }
 } 
 
